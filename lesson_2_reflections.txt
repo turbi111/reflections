@@ -24,4 +24,8 @@ They help you paint a picture of what the branch structure brings to the flow.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-Merging one branch into another creates a new commit with the last commits of the branches being merged. All the changes that were included in the last commits will be included in this new commit, and all the previous commits will be part of one unique branch. 
+Merging one branch into another creates a new commit with the last commits of the branches being merged. All the changes that were included in the last commits will be included in this new commit, and all the previous commits will be part of one unique branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+I don’t see any cons. the pros is that you can save a lot of time! 
