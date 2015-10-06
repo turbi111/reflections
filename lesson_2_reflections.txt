@@ -16,4 +16,8 @@ What are some situations when branches would be helpful in keeping your history 
 
 Branches can be helpful in order to maintain a easy to access file. When you are working in a file and you want to make some brave and experimental changes, but you still need to work in the main or master branch, you can create a different branch and save those changes on that particular branch. 
 The changes that you want to keep on making on the main bring will not be carried to the side branch. 
-Once you ask for the appropriate feedback on the experimental change, you can decide if you want to include the particular experimental changes in the main bring by “merging” or if you want to discard them.  
+Once you ask for the appropriate feedback on the experimental change, you can decide if you want to include the particular experimental changes in the main bring by “merging” or if you want to discard them. 
+
+How do the diagrams help you visualize the branch structure?
+
+They help you paint a picture of what the branch structure brings to the flow.  
