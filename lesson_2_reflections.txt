@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialise a repository nothing really happens, but you have the proper environment to start saving commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area offers a middle point between the working directory (that directory in which you are currently working) and the repository, which is the place where you save the logs. The staging area helps to commit the necessary changes in the specified files in an easy and fast way.
