@@ -5,3 +5,9 @@ When you initialise a repository nothing really happens, but you have the proper
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area offers a middle point between the working directory (that directory in which you are currently working) and the repository, which is the place where you save the logs. The staging area helps to commit the necessary changes in the specified files in an easy and fast way.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area can be used as a checkpoint between the repository, where all the commits lay, and the working directory, which is the current stage of every file that forms the directory. 
+You can use git diff to compare the files from the working directory to those of the staging area, so if you kept on adding changes to something that was already in the staging area you can see what you changed. 
+You can use the get diff —-staged in order to compare the latest commit in the repository with the staging area, this way you can see how many changes you made to the previous commit. 
