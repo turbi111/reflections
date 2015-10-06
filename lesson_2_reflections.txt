@@ -11,3 +11,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 The staging area can be used as a checkpoint between the repository, where all the commits lay, and the working directory, which is the current stage of every file that forms the directory. 
 You can use git diff to compare the files from the working directory to those of the staging area, so if you kept on adding changes to something that was already in the staging area you can see what you changed. 
 You can use the get diff —-staged in order to compare the latest commit in the repository with the staging area, this way you can see how many changes you made to the previous commit. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be helpful in order to maintain a easy to access file. When you are working in a file and you want to make some brave and experimental changes, but you still need to work in the main or master branch, you can create a different branch and save those changes on that particular branch. 
+The changes that you want to keep on making on the main bring will not be carried to the side branch. 
+Once you ask for the appropriate feedback on the experimental change, you can decide if you want to include the particular experimental changes in the main bring by “merging” or if you want to discard them.  
