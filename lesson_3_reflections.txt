@@ -17,3 +17,9 @@ You can save the copy locally when you are online, and then work offline in it b
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without using git or github we would need to save the files and send them through email or through a different cloud. It would be hard and slow. Merging would be a pain in the behind!
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You just saw that the workflow when making changes in a separate branch is more complicated than working directly in master, especially when you need to stay up-to-date with changes others are making. Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch (different-oil, in our case), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.
+
+I would like to make changes to separate branches when I am not sure if the change should be included in the master branch!
