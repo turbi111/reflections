@@ -5,3 +5,7 @@ When you are committing in someone else’s work.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because you might make changes that are not ready to be passed to your computer yet.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks are used to clone data inside the github, clones create copies of entire repositories inside your computer or from github to your computer, branches are the different paths that a particular commit can take.
